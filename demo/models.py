@@ -9,6 +9,7 @@ class Student(models.Model):
 	def __str__(self):
 		return self.name
 
+
 class Hobbies(models.Model):
 	"""docstring ass Hobbies"""
 	hobby_name=models.CharField(max_length=200)
